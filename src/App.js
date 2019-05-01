@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Jokes from './Jokes';
 import Axios from 'axios';
+import Weather from './Weather';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <Jokes />
+      <Weather />
     </div>
   );
 }

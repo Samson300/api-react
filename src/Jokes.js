@@ -4,7 +4,6 @@ import axios from 'axios';
 class Jokes extends React.Component {
     constructor(props) {
         super(props);
-
         this.state={
             jokes: '',
             number: 1
